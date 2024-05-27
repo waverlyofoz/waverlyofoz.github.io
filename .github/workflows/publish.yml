@@ -18,5 +18,3 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - uses: joshooaj/mkdocs-deploy@v1
-        with:
-          config_file: mkdocs.yml
