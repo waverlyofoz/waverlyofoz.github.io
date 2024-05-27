@@ -14,3 +14,5 @@ jobs:
         with:
           fetch-depth: 0
       - uses: joshooaj/mkdocs-deploy@81e3328f726b6b2aca60461b9a845c2a6bea65a8
+        with:
+          config_file: mkdocs.yml
