@@ -26,7 +26,6 @@ RUN apk add --no-cache \
     curl \
     git \
     openssh-client \
-    less \
     procps \
     gpg \
     bash \
@@ -51,8 +50,6 @@ RUN apk add --no-cache \
     chmod 0440 /etc/sudoers.d/$USERNAME && \
     # Clean up
     apk cache clean && \
-    rm /tmp/powershell.tar.gz && \
-    # Install dotnet sdk
-    chmod +x /dotnet-install.sh && /dotnet-install.sh --version 8.0.202
+    rm /tmp/powershell.tar.gz
 USER $USERNAME
 ENTRYPOINT [ "/usr/bin/pwsh" ]
