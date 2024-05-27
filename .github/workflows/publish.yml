@@ -19,4 +19,4 @@ jobs:
           path: .cache
       - uses: joshooaj/mkdocs-deploy@v1
         with:
-          config_file: 'mkdocs.yml'
+          config_file: mkdocs.yml
