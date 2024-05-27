@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: joshooaj/mkdocs-deploy@v1
+      - uses: joshooaj/mkdocs-deploy@81e3328f726b6b2aca60461b9a845c2a6bea65a8
