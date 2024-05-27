@@ -1,0 +1,19 @@
+site_name: My Personal Blog
+site_description: My Personal Blog
+site_url: https://waverlyofoz.github.io/
+docs_dir: docs
+repo_name: waverlyofoz/waverlyofoz.github.io
+repo_url: https://waverlyofoz.github.io/mkdocs-deploy/
+remote_branch: gh-pages
+theme:
+  name: material
+  features:
+    - navigation.indexes
+
+plugins:
+  - blog
+
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
